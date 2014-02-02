@@ -33,14 +33,14 @@ navigation:
 - text: Open Source Policy
   url: oss_policy.html
   internal: true
-- text: Open Design
-  url: open_design.html
+- text: Open By Design
+  url: open_by_design.html
   internal: true
 - text: FAQs
-  url: example_page.html
+  url: faq.html
   internal: true 
-- text: Code Flow
-  url: example_page.html
+- text: Work Flow
+  url: git_workflow.html
   internal: true
 - text: Hosting
   url: example_page.html
