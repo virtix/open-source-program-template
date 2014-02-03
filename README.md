@@ -9,10 +9,16 @@ _some_ configuration here and, where practical, will refer you to details.
 
 ## To Do
 
-- [ ] How to configure variables
-- [ ] Edit with prose.io
-- [ ] How to add new pages and links
-- [ ] Encourage contributions
+ - [ ] How to configure variables
+ - [ ] Edit with prose.io
+ - [ ] How to add new pages and links
+ - [ ] Encourage contributions
+
+
+### Notes
+
+- Set ```gh-pages``` as default branch
+- Edit content with prose.io
 
 ----
 
