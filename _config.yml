@@ -17,7 +17,7 @@ baseurl: '/open-source-program-template'
 
 # Author/Organization info to be displayed in the templates
 author:
-  name: T. Jefferson 
+  name: Thomas Jefferson 
   url: http://localhost:4000
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
@@ -30,6 +30,9 @@ navigation:
 - text: Home
   url: index.html
   internal: true
+- text: Vision
+  url: example_page.html
+  internal: true
 - text: Open Source Policy
   url: oss_policy.html
   internal: true
@@ -39,12 +42,9 @@ navigation:
 - text: FAQs
   url: faq.html
   internal: true 
-- text: Work Flow
+- text: Processes &amp; Procedures
   url: git_workflow.html
   internal: true
-- text: Hosting
-  url: example_page.html
+- text: References
+  url: references.html
   internal: true
-- text: DOCter Repo
-  url: https://github.com/cfpb/DOCter
-  internal: false

@@ -1,6 +1,6 @@
 
 
-## What's here and why?
+## {{site.data.meta.org_name}}
 
 
 
