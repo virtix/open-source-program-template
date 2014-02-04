@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: page
 title: "Git Workflow"
 ---
 
-## {{page.title}}
 
 <p class="lead">This section explains how we use Git. See the bottom of this page for the Git Cheat Sheet and
 useful free resources for learning Git.</p>

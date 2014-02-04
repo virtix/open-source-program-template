@@ -2,6 +2,10 @@
 
 This is a set of templates and artifacts intended to help organizations bootstrap an open source program.
 
+<img src="https://raw.github.com/virtix/open-source-program-template/gh-pages/assets/img/screenshot.png">
+
+----
+
 It depends upon [Jekyll](http://jekyllrb.com/) as the rendering and parsing engine, and uses 
 [DOCter](https://github.com/CFPB/DOCter) as the template and theme.  
 Please refer to those sites for information on getting started and configuration. We'll address
@@ -20,9 +24,6 @@ _some_ configuration here and, where practical, will refer you to details.
 - Set ```gh-pages``` as default branch
 - Edit content with prose.io
 
-----
-
-<img src="https://raw.github.com/virtix/open-source-program-template/gh-pages/assets/img/screenshot.png">
 
 ----
 

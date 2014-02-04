@@ -1,7 +1,7 @@
 # Base configuration
 permalink: /:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 
 # Title
@@ -26,25 +26,27 @@ logoalt:
 
 # Navigation
 # List links that should appear in the site sidebar here
+# "pages" is a directory to keep web content that are not posts
+#
 navigation:
 - text: Home
   url: index.html
   internal: true
-- text: Vision
-  url: example_page.html
+- text: Guiding Principles
+  url: pages/guiding_principles.html
   internal: true
 - text: Open Source Policy
-  url: oss_policy.html
+  url: pages/oss_policy.html
   internal: true
-- text: Open By Design
-  url: open_by_design.html
+- text: Open By Default
+  url: pages/open_by_default.html
   internal: true
 - text: FAQs
-  url: faq.html
+  url: pages/faq.html
   internal: true 
 - text: Processes &amp; Procedures
-  url: git_workflow.html
+  url: pages/git_workflow.html
   internal: true
 - text: References
-  url: references.html
+  url: pages/references.html
   internal: true
