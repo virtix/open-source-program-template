@@ -207,7 +207,7 @@ section:before {
 
 header {
     width: 100%;
-    border-top: 4px solid #2CB34A;
+    border-top: 4px solid #000080;
     border-bottom: 1px solid #BABBBD;
     background-color: #fff;
     position: fixed;

@@ -21,6 +21,13 @@
           <img class="logo" src="{{site.logourl}}" alt="{{site.logoalt}}">
         {% endif %}
         <h1><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+        <div style="float:right">
+            <!-- This should be a configurable item in data/ -->
+
+            <a href="{{ site.data.meta.home_url }}" class="title-link">
+                <img height="52" src="{{ site.baseurl }}{{ site.data.meta.logo_url}}" alt="Your agency logo">
+            </a>
+        </div>
       </div>
       </header>
 
