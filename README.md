@@ -6,23 +6,24 @@ This is a set of templates and artifacts intended to help organizations bootstra
 
 ----
 
-It depends upon [Jekyll](http://jekyllrb.com/) as the rendering and parsing engine, and uses 
-[DOCter](https://github.com/CFPB/DOCter) as the template and theme.  
+### Dependencies
+
+ - [Jekyll](http://jekyllrb.com/) as the rendering and parsing engine, and
+
+ - [DOCter](https://github.com/CFPB/DOCter) as the template and theme
+
 Please refer to those sites for information on getting started and configuration. We'll address
 _some_ configuration here and, where practical, will refer you to details.
 
-## To Do
-
- - [ ] How to configure variables
- - [ ] Edit with prose.io
- - [ ] How to add new pages and links
- - [ ] Encourage contributions
 
 
-### Notes
+### Getting started
 
-- Set ```gh-pages``` as default branch
-- Edit content with prose.io
+- Clone this repo
+- Set ```gh-pages``` as the default branch
+- Point your wen browser to http://username.github.io/open-source-program-template 
+- The default home page has detailed instructions on configuring the site
+- Edit content with your favorite editor or prose.io
 
 
 ----
