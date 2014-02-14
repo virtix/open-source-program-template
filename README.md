@@ -21,7 +21,7 @@ _some_ configuration here and, where practical, will refer you to details.
 
 - Clone this repo
 - Set ```gh-pages``` as the default branch
-- Point your wen browser to http://username.github.io/open-source-program-template 
+- Point your web browser to http://username.github.io/open-source-program-template 
 - The default home page has detailed instructions on configuring the site
 - Edit content with your favorite editor or prose.io
 
