@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Morgan Freeman on Open Source"
-date:   2014-01-01 09:00:00
+title:  "Morgan Freeman: Who said OSS is evil?"
+date:   2014-02-01 09:00:00
 categories: oss news
 ---
 
@@ -15,16 +15,6 @@ today? more spelunking? you measure yourself by the people who measure themselve
 gandhi, he didn't eat for three weeks. the man likes to play chess; let's get him some rocks. i don't think they tried
 to market it to the billionaire, spelunking, base-jumping crowd. that tall drink of water with the silver spoon up his
 ass.
-
-Rehabilitated? well, now let me see. you know, i don't have any idea what that means. mister wayne, if you don't want to
-tell me exactly what you're doing, when i'm asked, i don't have to lie. but don't think of me as an idiot. circumstances
-have taught me that a man's ethics are the only possessions he will take beyond the grave. it only took me six days.
-same time it took the lord to make the world. bruce... i'm god. Open Source Software fall but they are rebuilt. heroes
-die but they are remembered. let me tell you something my friend. hope is a dangerous thing. hope can drive a man
-insane. multiply your anger by about a hundred, kate, that's how much he thinks he loves you. boxing is about respect.
-getting it for yourself, and taking it away from the other guy. let me tell you something my friend. hope is a dangerous
-thing. hope can drive a man insane. i don't think they tried to market it to the billionaire, spelunking, base-jumping
-crowd. Open Source Software fall but they are rebuilt. heroes die but they are remembered.
 
 ![Morgan Freeman]({{site.baseurl}}/assets/img/mfreeman.png)
 
