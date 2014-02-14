@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Open Source Program</title>
+        <title>United States Open Source Program</title>
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="/assets/css/normalize.css">
         <link rel="stylesheet" href="/assets/css/main.css">
@@ -22,7 +22,7 @@
         <div style="float:right">
             <!-- This should be a configurable item in data/ -->
 
-            <a href="/" class="title-link">
+            <a href="/index.html" class="title-link">
                 <img height="52" src="/assets/img/USA_flag_icon.png" alt="Your agency logo">
             </a>
         </div>
@@ -50,6 +50,10 @@
         
       
         
+          <li><a href="/pages/news.html">News</a></li>
+        
+      
+        
           <li><a href="/pages/open_by_default.html">Open By Default</a></li>
         
       
@@ -71,25 +75,92 @@
 
         <section id="main" class="main-content" role="main">
           
-
 <h2 id="your-organization-name">YOUR ORGANIZATION NAME</h2>
 
+<h2 id="how-to-configure-and-edit-this-page-and-site">How to configure and edit this page and site</h2>
 
+<p>This site is built with <a href="http://jekyllrb.com/">Jekyll</a>, so you should 
+have that installed and be familiar with it.</p>
 
-<div id="home">
-  <h2>Posts</h2>
-  <ul class="posts">
-    
-      <li><a href="/welcome-to-jekyll">Welcome to Jekyll!</a> <span class="post-date">20 Nov 2013</span></li>
-    
-  </ul>
-</div>
+<h4 id="editing-this-page">Editing this page</h4>
+
+<p>Edit the <code>index.md</code> file in your project root to add welcome content and
+any other data you want. </p>
+
+<p><strong>Note</strong>: Make sure to change the <code>title: ...</code>.</p>
+
+<h4 id="changing-information-about-your-organization">Changing information about your organization</h4>
+
+<p>Navigate to the file <code>data/meta.yml</code>.  This is a data file and contains
+basic information about your organization—name, address, point of contact, etc.</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">org_name</span><span class="p-Indicator">:</span>  <span class="l-Scalar-Plain">YOUR ORGANIZATION NAME</span>
+<span class="l-Scalar-Plain">address</span><span class="p-Indicator">:</span>
+ <span class="l-Scalar-Plain">street</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">1000 Main Street</span>
+ <span class="l-Scalar-Plain">suite</span><span class="p-Indicator">:</span> 
+ <span class="l-Scalar-Plain">city</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Washington</span>
+ <span class="l-Scalar-Plain">state</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">D.C.</span>
+ <span class="l-Scalar-Plain">zip</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">20000</span>
+<span class="l-Scalar-Plain">point_of_contact</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Thomas Jefferson</span> 
+<span class="nn">...</span>
+</code></pre></div>
+
+<h4 id="changing-the-sites-main-title-default-open-source-program">Changing the site’s main title (default: Open Source Program)</h4>
+
+<p>Navigate to the file <code>_config.yml</code> in your project’s root directory. Change the
+<code>name:</code> element on line 8 or so to your desired site’s name.</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="c1"># Title</span>
+<span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Open Source Program</span>
+<span class="l-Scalar-Plain">subtitle</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">A set of templates and artifacts to support open source programs</span> 
+</code></pre></div>
+
+<h4 id="changing-the-sites-logo">Changing the site’s logo</h4>
+
+<p>Navigate to the file <code>data/meta.yml</code> and change the <code>logo_url</code> to a valid 
+location to your logo. This can either be an HTTP URL or a new local image file.</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">logo_url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/assets/img/USA_flag_icon.png</span>
+</code></pre></div>
+
+<h4 id="editing-content">Editing content</h4>
+
+<p>There are two types of content: pages and posts (or news items). Posts are discussed next.</p>
+
+<p>To edit existing pages, navigate to the <code>pages</code> directory in your project’s root. Edit
+the files in your editor of choice.  These are written in <a href="https://daringfireball.net/projects/markdown/">markdown</a>.</p>
+
+<p>If your site is hosted at GitHub using <a href="http://pages.github.com/">GitHub Pages</a> you can edit the content
+directly or you can use <a href="http://prose.io/">Prose.io</a>.</p>
+
+<h4 id="adding-new-pages">Adding new pages</h4>
+
+<p>Copy the <code>pages/page_template.md</code> file to <code>pages/your_file_name.md</code> and add content as desired.</p>
+
+<h4 id="creating-news-items">Creating News Items</h4>
+
+<p>To create a <em>new</em> post, copy the <code>_posts/post-template.md</code> file to the same directory and use this
+file naming convention: <code>YYYY-MM-DD-Your-Post-Title.md</code>.  Edit that file accordingly and it 
+will automatically be displayed on the the <a href="news.html">news page</a>.  </p>
+
+<h4 id="addingchanging-left-hand-navigation">Adding/Changing Left-hand Navigation</h4>
+
+<p>In your project’s root directory, open <code>_config.yml</code>.  Towards the bottom there is a 
+<code>navigation:</code> node. Each child in the node represents a new navigation item.  Each item
+has text,url, and internal properties.  The <code>text</code> property is the text that is displayed 
+on the page. The <code>url</code> property is the target destination. </p>
+
+<h4 id="working-with-github-pages">Working with GitHub pages</h4>
+
+<p>Using Jekyll and GitHub pages allows you to easily manage and publish content. See
+<a href="https://help.github.com/articles/using-jekyll-with-pages">GitHub</a> for more information.</p>
+
 
         </section>
 
 
         <footer role="contentinfo">
-          <p>This project is maintained by <a href="http://localhost:4000">Thomas Jefferson</a></p>
+          <p>This project is maintained by <a href="mailto:tj@monticello.gov">Thomas Jefferson</a></p>
 
           <p>Hosted on Github Pages</p>
         </footer>

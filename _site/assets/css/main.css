@@ -1,4 +1,4 @@
-/*
+/ri*
 Main.css
 ==================================
 Begin with generic 'mobile first' styles
@@ -29,6 +29,47 @@ body {
     line-height: 1.466666667;
 }
 
+hr {
+    height: 1px;
+    border: 0;
+    background: rgba(133,133,133,.10);
+    /*
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc); */
+}
+
+/*
+  For fancy quotes, but if using markdown you need to use raw HTML; e.g.,
+  <blockquote class="quote">
+     Some quote ...
+  </blockquote>
+*/
+
+blockquote.quote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C"\201D"\2018"\2019";
+    font-size: 1.25em;
+}
+
+blockquote.quote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote.quote p {
+    display: inline;
+}
+
+
 h1,
 h3,
 h4,
@@ -56,7 +97,11 @@ h2 {
 
 h4 {
     font-size: 1em;
+    padding-top: 1.5em;
     text-transform: uppercase;
+    border-bottom-color: #0D006D;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
 }
 
 p,
@@ -207,13 +252,13 @@ section:before {
 
 header {
     width: 100%;
-    border-top: 4px solid #000080;
-    border-bottom: 1px solid #BABBBD;
+    border-top: 8px solid #000080;
+    border-bottom: 1px solid rgba(133,133,133,.10);
     background-color: #fff;
     position: fixed;
     top: 0;
     z-index: 99999;
-    height: 3.625em;
+    height: 4.10em;
 }
 
 .content {

@@ -20,14 +20,11 @@ author:
   name: Thomas Jefferson 
   url: http://localhost:4000
 
-# Point the logo URL at a file in your repo or hosted elsewhere by your organization
-logourl: 
-logoalt:
-
-# Navigation
-# List links that should appear in the site sidebar here
-# "pages" is a directory to keep web content that are not posts
-#
+# ------------------------------------------------------------------
+#   Navigation
+#   List links that should appear in the site sidebar here
+#   "pages" is a directory to keep web content that are not posts
+# ------------------------------------------------------------------
 navigation:
 - text: Home
   url: index.html
@@ -37,6 +34,9 @@ navigation:
   internal: true
 - text: Open Source Policy
   url: pages/oss_policy.html
+  internal: true
+- text: News
+  url: pages/news.html
   internal: true
 - text: Open By Default
   url: pages/open_by_default.html
