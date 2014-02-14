@@ -3,27 +3,122 @@ layout: page
 title: "Frequently Asked Questions"
 ---
 
-1. What is Open Source Software (OSS)?
-2. What kinds of OSS license should we use? [^2]
-3. What are the restrictions using OSS? [^3]
-4. How do I get people in my organization to adopt OSS? [^4]
+
+[What is Open Source Software (OSS)?](#q1)
+
+[What are the key benefits and risks of using OSS?](#q2)
+
+[What kinds of OSS license should we use?](#q3)
+
+[What are the restrictions using OSS?](#q4)
+
+[How do I get people in my organization to adopt OSS?](#q5)
 
 
-Links
------
-
-1. [Link 1][foo]
-2. Link 2
-3. Link 3
+<p>&nbsp;</p>
 
 ----
+
+<a name="q1"></a>
+
+#### What is Open Source Software (OSS)?
+
+Open Source Software (OSS) is software that also includes the program's source code.
+In almost all cases, the software is licensed such that it can be altered by anyone
+and used in any environment.  It typically doesn't cost anything and there are no
+legally binding guarantees.  The official US Department of Defense
+[definition](http://dodcio.defense.gov/Portals/0/Documents/OSSFAQ/2009OSS.pdf) 
+is "software for which the human-readable source code is available for use, study, re-use, modification, enhancement,
+and re-distribution by the users of that software".<a href="#top" class="reversefootnote">↩</a>
+
+
+
+<a name="q2"></a>
+
+#### What are the key benefits and risks of using OSS?
+
+First off, an organization does not have to officially procure or purchase open 
+source software licenses, as, under most licenses, the software and it's source code
+are free and can be changed as needed. So, from a product procurement perspective, OSS
+is not an issue.  However, you need the skills to integrate and maintain the software.
+Additionally, most open source software does not come with a warranty, so, if it doesn't
+do what you expect, or it breaks, you must rely on the product's community for support.
+
+Community support, in many cases is quite good and you frequently deal with people who 
+are intimately familiar with the inner workings of the product. They may very well be the 
+software's author.  That said, some communities and products go stale and community support
+is difficult to find. Have the in-house skills, in these cases, is very helpful.
+<a href="#top" class="reversefootnote">↩</a>
+
+Another risk is the loss of personal identifying information, or _PII_, which may accidentally
+be in the software's source code.  Even the best programmers
+and security specialists make mistakes and these can be costly to an organization's reputation and, 
+for government agencies, this can affect public trust. Organizations should implement sufficient
+quality controls and code reviews to reduce this risk.  Refer to the [git workflow document](pages/git_workflow.html)
+for ideas.
+
+An organization who is actively accepting changes from the public runs the risk of inadvertently 
+accepting undesirable code. The code could have bugs, security vulnerabilities, and other nastiness.
+Again, implementing and following good workflows greatly reduces these risks.
+
+
+
+<a name="q3"></a>
+
+#### What kind of license should we use?
+
+Open source software suffers from a fragmented plethora of licensing and there
+are many good practical and philosophical arguments why one license 
+should be chosen over another and your situation may vary.  Start with the
+[Open Source Initiative](http://opensource.org/) for licensing considerations.
+
+Some government agencies consider the software and code they produce as 
+being in the public domain, and there are various descriptions of that; e.g.,
+[CC0](http://creativecommons.org/publicdomain/zero/1.0/).  NASA has it's own
+version, which is labelled as an [Open Source Software Agreement](http://ti.arc.nasa.gov/opensource/nosa/).
+
+The point is to make
+make sure the government is indemnified and does not try to restrict use of the
+source code. <a href="#top" class="reversefootnote">↩</a>
+
+
+
+<a name="q4"></a>
+
+#### What are the restrictions and what should we look out for?
+
+Typically, there are no restrictions on the use and modification of OSS. Where
+it gets complex is on redistribution.  You need to make sure that you follow the
+original license.
+
+Where the government can be challenged is when software is written by a contractor
+**and** the contractor didn't waive their rights to the work product in the original
+contract. In cases like this, ownership and rights over the source code can be ambiguous.
+This is likely a bigger issue with larger contracts that have been in place for a long
+time. See
+[http://www.acq.osd.mil/dpap/dars/dfars/html/current/252227.htm](http://www.gpo.gov/fdsys/pkg/USCODE-2009-title41/html/USCODE-2009-title41-chap4-subchapIV-sec264b.htm) <a href="#top" class="reversefootnote">↩</a>
+
+
+<a name="q5"></a>
+
+#### How do I get people in my organization to adopt open source?
+
+Education is key. OSS is a significant paradigm shift for many and the
+process to change that paradigm is _a process_.
+
+It may also help to have a small focus group or pilot
+project that can demonstrate the strengths and weaknesses of open source adoption
+in a given environment. <a href="#top" class="reversefootnote">↩</a>
+
+
+
+<a name="q6"></a>
+
+#### TBD?
+<a href="#top" class="reversefootnote">↩</a>
+
+
+
+
 
 *[OSS]: Open Source Software
-
-[^2]: def
-[^3]: def
-[^4]: def
-
-----
-
-[foo]: faq.html "Definition of something ..."

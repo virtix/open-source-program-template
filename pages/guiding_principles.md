@@ -3,9 +3,9 @@ layout: page
 title:  "Guiding Principles"
 ---
  
-#### We believe
+#### We believe [^1]
 
-- Distributing OSS[^1] helps to foster public trust 
+- Distributing OSS helps to foster public trust.
 - Collaborating on OSS projects creates higher quality software and _directly_ 
   serves the public at large  
 - OSS can be very cost-effective as it bypasses the need to procure software licenses
@@ -13,7 +13,14 @@ title:  "Guiding Principles"
 
 ----
 
-[^1]: **OSS** is "Open Source Software"; software whose source code is made available and can freely be redistributed and modified.
+[^1]: From Mil-OSS,
+    Military Open Source Software, ["Mission, Goals, and Guiding
+    Principles"](http://mil-oss.org/about/our-mission-goals-and-principles)
+
+
+
+
+*[OSS]: Open Source Software
  
 
 

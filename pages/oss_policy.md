@@ -10,6 +10,7 @@ It will automatically be reflected here.
 
 {% endcomment %} 
 
+From the CFPB[^1]
 
 1. USE OF EXTERNAL OPEN SOURCE SOFTWARE
 ---
@@ -127,5 +128,10 @@ Export Administration Regulations or the International Traffic in Arms Regulatio
         
 > d. {{site.data.meta.org_name}} cybersecurity staff determine that the public release of such code would pose an
 unacceptable risk to {{site.data.meta.org_name}}'s operational security.
+
+----
+
+
+[^1]: CFPB, [Source Code Policy](https://raw.github.com/cfpb/source-code-policy/master/cfpb-source-code-policy.txt)
 
 

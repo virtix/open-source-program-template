@@ -62,7 +62,7 @@
         
       
         
-          <li><a href="/pages/git_workflow.html">Processes &amp; Procedures</a></li>
+          <li><a href="/pages/workflows.html">Processes &amp; Procedures</a></li>
         
       
         
@@ -76,38 +76,109 @@
         <section id="main" class="main-content" role="main">
           <h2 class="page-title">Frequently Asked Questions</h2>
 
-<ol>
-  <li>What is Open Source Software (<abbr title="Open Source Software">OSS</abbr>)?</li>
-  <li>What kinds of <abbr title="Open Source Software">OSS</abbr> license should we use? <sup id="fnref:2"><a href="#fn:2" class="footnote">1</a></sup></li>
-  <li>What are the restrictions using <abbr title="Open Source Software">OSS</abbr>? <sup id="fnref:3"><a href="#fn:3" class="footnote">2</a></sup></li>
-  <li>How do I get people in my organization to adopt <abbr title="Open Source Software">OSS</abbr>? <sup id="fnref:4"><a href="#fn:4" class="footnote">3</a></sup></li>
-</ol>
+<p><a href="#q1">What is Open Source Software (<abbr title="Open Source Software">OSS</abbr>)?</a></p>
 
-<h2 id="links">Links</h2>
+<p><a href="#q2">What are the key benefits and risks of using <abbr title="Open Source Software">OSS</abbr>?</a></p>
 
-<ol>
-  <li><a href="faq.html" title="Definition of something ...">Link 1</a></li>
-  <li>Link 2</li>
-  <li>Link 3</li>
-</ol>
+<p><a href="#q3">What kinds of <abbr title="Open Source Software">OSS</abbr> license should we use?</a></p>
+
+<p><a href="#q4">What are the restrictions using <abbr title="Open Source Software">OSS</abbr>?</a></p>
+
+<p><a href="#q5">How do I get people in my organization to adopt <abbr title="Open Source Software">OSS</abbr>?</a></p>
+
+<p>&nbsp;</p>
 
 <hr />
 
-<hr />
+<p><a name="q1"></a></p>
 
-<div class="footnotes">
-  <ol>
-    <li id="fn:2">
-      <p>def<a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p>def<a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:4">
-      <p>def<a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<h4 id="what-is-open-source-software-oss">What is Open Source Software (<abbr title="Open Source Software">OSS</abbr>)?</h4>
+
+<p>Open Source Software (<abbr title="Open Source Software">OSS</abbr>) is software that also includes the program’s source code.
+In almost all cases, the software is licensed such that it can be altered by anyone
+and used in any environment.  It typically doesn’t cost anything and there are no
+legally binding guarantees.  The official US Department of Defense
+<a href="http://dodcio.defense.gov/Portals/0/Documents/OSSFAQ/2009OSS.pdf">definition</a> 
+is “software for which the human-readable source code is available for use, study, re-use, modification, enhancement,
+and re-distribution by the users of that software”.<a href="#top" class="reversefootnote">↩</a></p>
+
+<p><a name="q2"></a></p>
+
+<h4 id="what-are-the-key-benefits-and-risks-of-using-oss">What are the key benefits and risks of using <abbr title="Open Source Software">OSS</abbr>?</h4>
+
+<p>First off, an organization does not have to officially procure or purchase open 
+source software licenses, as, under most licenses, the software and it’s source code
+are free and can be changed as needed. So, from a product procurement perspective, <abbr title="Open Source Software">OSS</abbr>
+is not an issue.  However, you need the skills to integrate and maintain the software.
+Additionally, most open source software does not come with a warranty, so, if it doesn’t
+do what you expect, or it breaks, you must rely on the product’s community for support.</p>
+
+<p>Community support, in many cases is quite good and you frequently deal with people who 
+are intimately familiar with the inner workings of the product. They may very well be the 
+software’s author.  That said, some communities and products go stale and community support
+is difficult to find. Have the in-house skills, in these cases, is very helpful.
+<a href="#top" class="reversefootnote">↩</a></p>
+
+<p>Another risk is the loss of personal identifying information, or <em>PII</em>, which may accidentally
+be in the software’s source code.  Even the best programmers
+and security specialists make mistakes and these can be costly to an organization’s reputation and, 
+for government agencies, this can affect public trust. Organizations should implement sufficient
+quality controls and code reviews to reduce this risk.  Refer to the <a href="pages/git_workflow.html">git workflow document</a>
+for ideas.</p>
+
+<p>An organization who is actively accepting changes from the public runs the risk of inadvertently 
+accepting undesirable code. The code could have bugs, security vulnerabilities, and other nastiness.
+Again, implementing and following good workflows greatly reduces these risks.</p>
+
+<p><a name="q3"></a></p>
+
+<h4 id="what-kind-of-license-should-we-use">What kind of license should we use?</h4>
+
+<p>Open source software suffers from a fragmented plethora of licensing and there
+are many good practical and philosophical arguments why one license 
+should be chosen over another and your situation may vary.  Start with the
+<a href="http://opensource.org/">Open Source Initiative</a> for licensing considerations.</p>
+
+<p>Some government agencies consider the software and code they produce as 
+being in the public domain, and there are various descriptions of that; e.g.,
+<a href="http://creativecommons.org/publicdomain/zero/1.0/">CC0</a>.  NASA has it’s own
+version, which is labelled as an <a href="http://ti.arc.nasa.gov/opensource/nosa/">Open Source Software Agreement</a>.</p>
+
+<p>The point is to make
+make sure the government is indemnified and does not try to restrict use of the
+source code. <a href="#top" class="reversefootnote">↩</a></p>
+
+<p><a name="q4"></a></p>
+
+<h4 id="what-are-the-restrictions-and-what-should-we-look-out-for">What are the restrictions and what should we look out for?</h4>
+
+<p>Typically, there are no restrictions on the use and modification of <abbr title="Open Source Software">OSS</abbr>. Where
+it gets complex is on redistribution.  You need to make sure that you follow the
+original license.</p>
+
+<p>Where the government can be challenged is when software is written by a contractor
+<strong>and</strong> the contractor didn’t waive their rights to the work product in the original
+contract. In cases like this, ownership and rights over the source code can be ambiguous.
+This is likely a bigger issue with larger contracts that have been in place for a long
+time. See
+<a href="http://www.gpo.gov/fdsys/pkg/USCODE-2009-title41/html/USCODE-2009-title41-chap4-subchapIV-sec264b.htm">http://www.acq.osd.mil/dpap/dars/dfars/html/current/252227.htm</a> <a href="#top" class="reversefootnote">↩</a></p>
+
+<p><a name="q5"></a></p>
+
+<h4 id="how-do-i-get-people-in-my-organization-to-adopt-open-source">How do I get people in my organization to adopt open source?</h4>
+
+<p>Education is key. <abbr title="Open Source Software">OSS</abbr> is a significant paradigm shift for many and the
+process to change that paradigm is <em>a process</em>.</p>
+
+<p>It may also help to have a small focus group or pilot
+project that can demonstrate the strengths and weaknesses of open source adoption
+in a given environment. <a href="#top" class="reversefootnote">↩</a></p>
+
+<p><a name="q6"></a></p>
+
+<h4 id="tbd">TBD?</h4>
+<p><a href="#top" class="reversefootnote">↩</a></p>
+
 
 
         </section>

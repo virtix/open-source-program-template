@@ -45,7 +45,7 @@ navigation:
   url: pages/faq.html
   internal: true 
 - text: Processes &amp; Procedures
-  url: pages/git_workflow.html
+  url: pages/workflows.html
   internal: true
 - text: References
   url: pages/references.html
