@@ -15,6 +15,13 @@ any other data you want.
 **Note**: Make sure to change the ```title: ...```.
 
 
+
+#### Removing the "Fork me on GitHub" ribbon
+
+Edit the ```_layouts\default.html``` file. The ribbon code is on 
+about line #23. Just replace it or delete it.
+
+
 #### Changing information about your organization
 
 Navigate to the file ```data/meta.yml```.  This is a data file and contains
@@ -34,7 +41,7 @@ point_of_contact: Thomas Jefferson
 {% endhighlight %}
 
 
-#### Changing the site's main title (default: Open Source Program)
+#### Changing the site's main title (default: A Government Open Source Program)
 
 Navigate to the file ```_config.yml``` in your project's root directory. Change the
 ```name: ``` element on line 8 or so to your desired site's name.

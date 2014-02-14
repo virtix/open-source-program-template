@@ -5,7 +5,7 @@ markdown: kramdown
 pygments: true
 
 # Title
-name: Open Source Program
+name: A Government Open Source Program
 subtitle: A set of templates and artifacts to support open source programs 
 
 # When using this template with a project page set the baseurl to '/project-name'

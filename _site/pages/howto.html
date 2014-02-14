@@ -15,10 +15,18 @@
 
     </head>
     <body>
+
+
+
       <header role="banner">
+
+      <!-- Fork Me at GitHub banner. Remove, of course -->
+      <a href="https://github.com/virtix/open-source-program-template"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+      
+
       <div class="wrap">
         
-        <h1><a class="title-link" href="/">Open Source Program</a></h1>
+        <h1><a class="title-link" href="/">A Government Open Source Program</a></h1>
         <div style="float:right">
             <!-- This should be a configurable item in data/ -->
 
@@ -93,6 +101,11 @@ any other data you want. </p>
 
 <p><strong>Note</strong>: Make sure to change the <code>title: ...</code>.</p>
 
+<h4 id="removing-the-fork-me-on-github-ribbon">Removing the “Fork me on GitHub” ribbon</h4>
+
+<p>Edit the <code>_layouts\default.html</code> file. The ribbon code is on 
+about line #23. Just replace it or delete it.</p>
+
 <h4 id="changing-information-about-your-organization">Changing information about your organization</h4>
 
 <p>Navigate to the file <code>data/meta.yml</code>.  This is a data file and contains
@@ -109,7 +122,7 @@ basic information about your organization—name, address, point of contact, etc
 <span class="nn">...</span>
 </code></pre></div>
 
-<h4 id="changing-the-sites-main-title-default-open-source-program">Changing the site’s main title (default: Open Source Program)</h4>
+<h4 id="changing-the-sites-main-title-default-a-government-open-source-program">Changing the site’s main title (default: A Government Open Source Program)</h4>
 
 <p>Navigate to the file <code>_config.yml</code> in your project’s root directory. Change the
 <code>name:</code> element on line 8 or so to your desired site’s name.</p>
