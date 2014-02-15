@@ -86,16 +86,17 @@ If your site is hosted at GitHub using [GitHub Pages](http://pages.github.com/) 
 directly or you can use [Prose.io](http://prose.io/).
 
 
-#### Adding new pages
-
-Copy the ```pages/page_template.md``` file to ```pages/your_file_name.md``` and add content as desired.
-
-
 #### Creating News Items 
 
 To create a _new_ post, copy the ```_posts/post-template.md``` file to the same directory and use this
 file naming convention: ```YYYY-MM-DD-Your-Post-Title.md```.  Edit that file accordingly and it 
 will automatically be displayed on the the [news page](news.html).  
+
+
+#### Adding new pages
+
+Copy the ```pages/page_template.md``` file to ```pages/your_file_name.md``` and add content as desired.
+
 
 
 #### Adding/Changing Left-hand Navigation
