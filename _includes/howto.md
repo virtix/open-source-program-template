@@ -6,6 +6,16 @@ This site is built with [Jekyll](http://jekyllrb.com/), so you should
 have that installed and be familiar with it.
 
 
+#### Quick Start
+
+1. Fork this repo/site by clicking the ["Fork me on GitHub"](https://github.com/virtix/open-source-program-template)
+ribbon in the upper right-hand corner.
+2. Make sure the default branch is set to ```gh-pages```. This can be found in your [project's settings](https://github.com/YOUR_USERNAME/open-source-program-template/settings)
+3. Navigate to [http://YOUR_USERNAME.github.io](http://YOUR_USERNAME.github.io)
+    You should see the un-edited micro-site.
+4. Navigate to [prose.io](http://prose.io) and log in with your GitHub account
+5. Find the ```opensource-program-template``` and use prose.io to edit files and create content.
+
 
 #### Editing this page
 
