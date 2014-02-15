@@ -116,7 +116,6 @@ in a given environment. <a href="#top" class="reversefootnote">↩</a>
 <a name="q6"></a>
 
 #### Why do developers participate in OSS?
-<a href="#top" class="reversefootnote">↩</a>
 There a many reasons; some are individual and are others may be more generalized. 
 
 A developer's reputation and ability get good jobs can be greatly improved by participating in OSS. 
@@ -126,7 +125,7 @@ often more attention to detail, security, and quality than if the software were 
 
 Many developers work remotely and in very specialized areas.  OSS is global which allows developers to 
 connect with a broad and diverse community.  In many cases, developers collaborate and forge strong partnerships
-and friendships with other developers and may never meet face-to-face.
+and friendships with other developers and may never meet face-to-face.  <a href="#top" class="reversefootnote">↩</a>
 
 
 
