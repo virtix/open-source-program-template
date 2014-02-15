@@ -14,7 +14,7 @@ published: true
 
 [How do I get people in my organization to adopt OSS?](#q5)
 
-[Why do developers participate in OSS](#q6)
+[Why do developers participate in OSS if they don't get paid?](#q6)
 
 
 <p>&nbsp;</p>
@@ -115,7 +115,7 @@ in a given environment. <a href="#top" class="reversefootnote">↩</a>
 
 <a name="q6"></a>
 
-#### Why do developers participate in OSS?
+#### Why do developers participate in OSS if they don't get paid?
 There a many reasons; some are individual and are others may be more generalized. 
 
 A developer's reputation and ability get good jobs can be greatly improved by participating in OSS. 
