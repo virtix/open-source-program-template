@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Frequently Asked Questions"
+title: Frequently Asked Questions
+published: true
 ---
-
 
 [What is Open Source Software (OSS)?](#q1)
 
@@ -14,6 +14,8 @@ title: "Frequently Asked Questions"
 
 [How do I get people in my organization to adopt OSS?](#q5)
 
+[Why do developers participate in OSS](#q6)
+
 
 <p>&nbsp;</p>
 
@@ -24,7 +26,7 @@ title: "Frequently Asked Questions"
 #### What is Open Source Software (OSS)?
 
 Open Source Software (OSS) is software that also includes the program's source code.
-In almost all cases, the software is licensed such that it can be altered by anyone
+In almost all cases, the software is licensed such that it can be modified by anyone
 and used in any environment.  It typically doesn't cost anything and there are no
 legally binding guarantees.  The official US Department of Defense
 [definition](http://dodcio.defense.gov/Portals/0/Documents/OSSFAQ/2009OSS.pdf) 
@@ -37,9 +39,9 @@ and re-distribution by the users of that software".<a href="#top" class="reverse
 
 #### What are the key benefits and risks of using OSS?
 
-First off, an organization does not have to officially procure or purchase open 
+An organization does not have to officially procure or purchase open 
 source software licenses, as, under most licenses, the software and it's source code
-are free and can be changed as needed. So, from a product procurement perspective, OSS
+are free and can be modified as needed. So, from a product procurement perspective, OSS
 is not an issue.  However, you need the skills to integrate and maintain the software.
 Additionally, most open source software does not come with a warranty, so, if it doesn't
 do what you expect, or it breaks, you must rely on the product's community for support.
@@ -60,7 +62,6 @@ for ideas.
 An organization who is actively accepting changes from the public runs the risk of inadvertently 
 accepting undesirable code. The code could have bugs, security vulnerabilities, and other nastiness.
 Again, implementing and following good workflows greatly reduces these risks.
-
 
 
 <a name="q3"></a>
@@ -114,9 +115,18 @@ in a given environment. <a href="#top" class="reversefootnote">↩</a>
 
 <a name="q6"></a>
 
-#### TBD?
+#### Why do developers participate in OSS?
 <a href="#top" class="reversefootnote">↩</a>
+There a many reasons; some are individual and are others may be more generalized. 
 
+A developer's reputation and ability get good jobs can be greatly improved by participating in OSS. 
+Effectively, participating in OSS builds a public portfolio that can be used by the developer and prospective 
+employers to determine if there is a good match.  Because of the need for public reputation, developers pay
+often more attention to detail, security, and quality than if the software were not facing the public.
+
+Many developers work remotely and in very specialized areas.  OSS is global which allows developers to 
+connect with a broad and diverse community.  In many cases, developers collaborate and forge strong partnerships
+and friendships with other developers and may never meet face-to-face.
 
 
 
