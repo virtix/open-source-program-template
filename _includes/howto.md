@@ -30,6 +30,7 @@ basic information about your organization&mdash;name, address, point of contact,
 
 {% highlight yaml %}
 org_name:  YOUR ORGANIZATION NAME
+org_abbrev: Y.O.N.
 address:
  street: 1000 Main Street
  suite: 
@@ -48,9 +49,8 @@ Navigate to the file ```_config.yml``` in your project's root directory. Change 
 
 {% highlight yaml %}
 # Title
-name: Open Source Program
+name: Government Open Source Program
 subtitle: A set of templates and artifacts to support open source programs 
-
 {% endhighlight %}
 
 
@@ -101,6 +101,12 @@ Using Jekyll and GitHub pages allows you to easily manage and publish content. S
 [GitHub](https://help.github.com/articles/using-jekyll-with-pages) for more information.
 
 
+#### Working with [prose.io](http://prose.io)
 
+[prose.io](http://prose.io) is an open source tool for managing content on GitHub.
+Use it to create, edit, or delete files in your project.  prose.io is _Jekyll-aware_
+so, it adds a few features if you are using Jekyll. These included the ability to 
+save _drafts_, and _publish_ or _unpublish_ posts.
 
+Ref: [https://github.com/prose/prose/wiki/Getting-Started](https://github.com/prose/prose/wiki/Getting-Started)
 
