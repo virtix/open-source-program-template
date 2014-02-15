@@ -40,6 +40,12 @@ hr {
     background-image: -o-linear-gradient(left, #ccc, #333, #ccc); */
 }
 
+.author {
+    font-size: small;
+    color: rgba(153,153,153,.5);
+    float: right;
+}
+
 /*
   For fancy quotes, but if using markdown you need to use raw HTML; e.g.,
   <blockquote class="quote">
