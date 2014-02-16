@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morgan Freeman: Who said OSS is un-American?"
-date: {}
+date: 2014-02-02 09:00:00
 categories: oss news
 published: true
 ---
