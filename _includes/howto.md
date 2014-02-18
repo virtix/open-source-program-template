@@ -138,11 +138,7 @@ media: assets/img
 
 To remove the edit on prose.io link, remove the following lines from the
 ```_includes/sidebar.html``` file:
-
-{% highlight html %}
-
- <!-- Prose.io edit link -->
- <li>{% include prose_edit_url.html %}</li>
-
+{% highlight html %}{% raw %}<!-- Prose.io edit link -->
+ <li>{% include prose_edit_url.html %}</li>{% endraw %}
 {% endhighlight %}
 
