@@ -16,4 +16,4 @@ published: true
 1. Open Source for America (OSFA), [http://opensourceforamerica.org/](http://opensourceforamerica.org/)
 
 ## Non-Profit or Not-for-Profit
-1. A nice list of government open source projects, [http://govcode.org/](http://govcode.org/)
+1. A list of government open source projects, [http://govcode.org/](http://govcode.org/)
