@@ -1,5 +1,18 @@
-If you'd like to contribute to this project, please use the fork-and-pull
-model:
+Thanks for contributing! There are two ways:
+ - The Prose.io model (more for content contributions)
+ - The defacto fork-and-pull model (content *and* technical contributions)
+
+
+#### The Prose.io model
+
+1. Browse the live site, http://if.io/open-source-program-template/
+2. At any point, click the "Edit this page in prose.io" link in the left-hand navigation
+    - This will drop you into prose.io.
+3. Make edits and click Save
+    - This will create a [pull request](https://help.github.com/articles/using-pull-requests)
+
+
+#### The fork-and-pull model:
 
 1. Fork this repository to your personal account.
 2. Create a branch and make your changes.

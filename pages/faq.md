@@ -4,24 +4,13 @@ title: Frequently Asked Questions
 published: true
 ---
 
-[What is Open Source Software (OSS)?](#q1)
-
-[What are the key benefits and risks of using OSS?](#q2)
-
-[What kinds of OSS license should we use?](#q3)
-
-[What are the restrictions using OSS?](#q4)
-
-[How do I get people in my organization to adopt OSS?](#q5)
-
-[Why do developers participate in OSS if they don't get paid?](#q6)
-
+* FAQs
+{:toc}
 
 <p>&nbsp;</p>
 
 ----
 
-<a name="q1"></a>
 
 #### What is Open Source Software (OSS)?
 
@@ -34,8 +23,6 @@ is "software for which the human-readable source code is available for use, stud
 and re-distribution by the users of that software".<a href="#top" class="reversefootnote">↩</a>
 
 
-
-<a name="q2"></a>
 
 #### What are the key benefits and risks of using OSS?
 
@@ -64,7 +51,6 @@ accepting undesirable code. The code could have bugs, security vulnerabilities, 
 Again, implementing and following good workflows greatly reduces these risks.
 
 
-<a name="q3"></a>
 
 #### What kind of license should we use?
 
@@ -84,7 +70,6 @@ source code. <a href="#top" class="reversefootnote">↩</a>
 
 
 
-<a name="q4"></a>
 
 #### What are the restrictions and what should we look out for?
 
@@ -100,7 +85,6 @@ time. See
 [http://www.acq.osd.mil/dpap/dars/dfars/html/current/252227.htm](http://www.gpo.gov/fdsys/pkg/USCODE-2009-title41/html/USCODE-2009-title41-chap4-subchapIV-sec264b.htm) <a href="#top" class="reversefootnote">↩</a>
 
 
-<a name="q5"></a>
 
 #### How do I get people in my organization to adopt open source?
 
@@ -113,7 +97,6 @@ in a given environment. <a href="#top" class="reversefootnote">↩</a>
 
 
 
-<a name="q6"></a>
 
 #### Why do developers participate in OSS if they don't get paid?
 There a many reasons; some are individual and are others may be more generalized. 

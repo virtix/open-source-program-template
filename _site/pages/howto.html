@@ -39,7 +39,7 @@
 
       <div class="wrap content">
 
-        <aside>
+          <aside>
   <p class="intro">A set of templates and artifacts to support open source programs</p>
   <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
   <nav role="navigation">
@@ -48,42 +48,47 @@
         
           <li><a href="/index.html">Home</a></li>
         
-      
+        
         
           <li><a href="/pages/guiding_principles.html">Guiding Principles</a></li>
         
-      
+        
         
           <li><a href="/pages/oss_policy.html">Open Source Policy</a></li>
         
-      
+        
         
           <li><a href="/pages/news.html">News</a></li>
         
-      
+        
         
           <li><a href="/pages/open_by_default.html">Open By Default</a></li>
         
-      
+        
         
           <li><a href="/pages/faq.html">FAQs</a></li>
         
-      
+        
         
           <li><a href="/pages/workflows.html">Processes &amp; Procedures</a></li>
         
-      
+        
         
           <li><a href="/pages/references.html">References</a></li>
         
-      
+        
         
           <li><a href="/pages/howto.html">How to configure this site</a></li>
         
-      
+        
+
+        <!-- Prose.io edit link -->
+        <li><a href="http://prose.io#virtix/open-source-program-template/edit/gh-pages/pages/howto.md" target="_blank">Edit this page on prose.io</a>
+</li>
     </ul>
   </nav>
 </aside>
+
 
         <section id="main" class="main-content" role="main">
           <h2 class="page-title">How to configure this site</h2>
@@ -138,10 +143,10 @@ basic information about your organization—name, address, point of contact, etc
 <h4 id="changing-the-sites-main-title-default-a-government-open-source-program">Changing the site’s main title (default: A Government Open Source Program)</h4>
 
 <p>Navigate to the file <code>_config.yml</code> in your project’s root directory. Change the
-<code>name:</code> element on line 8 or so to your desired site’s name.</p>
+<code>name:</code> element on line 18 or so to your desired site’s name.</p>
 
-<div class="highlight"><pre><code class="yaml"><span class="c1"># Title</span>
-<span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Government Open Source Program</span>
+<div class="highlight"><pre><code class="yaml"><span class="c1"># Your Programs&#39;s Name</span>
+<span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">A Government Open Source Program</span>
 <span class="l-Scalar-Plain">subtitle</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">A set of templates and artifacts to support open source programs</span> 
 </code></pre></div>
 
@@ -185,14 +190,36 @@ on the page. The <code>url</code> property is the target destination. </p>
 <p>Using Jekyll and GitHub pages allows you to easily manage and publish content. See
 <a href="https://help.github.com/articles/using-jekyll-with-pages">GitHub</a> for more information.</p>
 
-<h4 id="working-with-proseiohttpproseio">Working with <a href="http://prose.io">prose.io</a></h4>
+<h4 id="working-with-proseiohttpsgithubcomproseprosewikigetting-started">Working with <a href="https://github.com/prose/prose/wiki/Getting-Started">prose.io</a></h4>
 
-<p><a href="http://prose.io">prose.io</a> is an open source tool for managing content on GitHub.
-Use it to create, edit, or delete files in your project.  prose.io is <em>Jekyll-aware</em>
+<p>Prose.io is an open source tool for managing content on GitHub.
+Use it to create, edit, or delete files in your project.  Prose.io is <em>Jekyll-aware</em>
 so, it adds a few features if you are using Jekyll. These included the ability to 
 save <em>drafts</em>, and <em>publish</em> or <em>unpublish</em> posts.</p>
 
-<p>Ref: <a href="https://github.com/prose/prose/wiki/Getting-Started">https://github.com/prose/prose/wiki/Getting-Started</a></p>
+<p>If you publish this using GitHub Pages, you can easily allow contributions.  Notice the
+the <a href="http://prose.io#virtix/open-source-program-template/edit/gh-pages/pages/howto.md" target="_blank">Edit this page on prose.io</a>
+ link in the left hand navigation.  You can customize this
+by editing the <code>_config.yml</code> file. Update the <code># Prose.io editing</code> section with 
+your GitHub information:</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="c1">#Prose.io editing info</span>
+<span class="l-Scalar-Plain">repo_name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">open-source-program-template</span>
+<span class="l-Scalar-Plain">branch</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">gh-pages</span>
+<span class="c1">#GitHub organization name *or* username</span>
+<span class="l-Scalar-Plain">gh_org</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">virtix</span>
+<span class="l-Scalar-Plain">prose_url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://prose.io</span>
+<span class="l-Scalar-Plain">site_url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://if.io/open-source-program-template</span>
+<span class="l-Scalar-Plain">media</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">assets/img</span>
+</code></pre></div>
+
+<p>To remove the edit on prose.io link, remove the following lines from the
+<code>_includes/sidebar.html</code> file:</p>
+
+<div class="highlight"><pre><code class="html"> <span class="c">&lt;!-- Prose.io edit link --&gt;</span>
+ <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://prose.io#virtix/open-source-program-template/edit/gh-pages/pages/howto.md&quot;</span> <span class="na">target=</span><span class="s">&quot;_blank&quot;</span><span class="nt">&gt;</span>Edit this page on prose.io<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/li&gt;</span>
+</code></pre></div>
 
 
 
@@ -203,11 +230,11 @@ save <em>drafts</em>, and <em>publish</em> or <em>unpublish</em> posts.</p>
 
 
         </section>
-
-
+        
+        
         <footer role="contentinfo">
           <p>This project is maintained by <a href="mailto:tj@monticello.gov">Thomas Jefferson</a></p>
-
+ 
           <p>Hosted on Github Pages</p>
         </footer>
 

@@ -55,11 +55,11 @@ point_of_contact: Thomas Jefferson
 #### Changing the site's main title (default: A Government Open Source Program)
 
 Navigate to the file ```_config.yml``` in your project's root directory. Change the
-```name: ``` element on line 8 or so to your desired site's name.
+```name: ``` element on line 18 or so to your desired site's name.
 
 {% highlight yaml %}
-# Title
-name: Government Open Source Program
+# Your Programs's Name
+name: A Government Open Source Program
 subtitle: A set of templates and artifacts to support open source programs 
 {% endhighlight %}
 
@@ -112,12 +112,37 @@ Using Jekyll and GitHub pages allows you to easily manage and publish content. S
 [GitHub](https://help.github.com/articles/using-jekyll-with-pages) for more information.
 
 
-#### Working with [prose.io](http://prose.io)
+#### Working with [prose.io](https://github.com/prose/prose/wiki/Getting-Started)
 
-[prose.io](http://prose.io) is an open source tool for managing content on GitHub.
-Use it to create, edit, or delete files in your project.  prose.io is _Jekyll-aware_
+Prose.io is an open source tool for managing content on GitHub.
+Use it to create, edit, or delete files in your project.  Prose.io is _Jekyll-aware_
 so, it adds a few features if you are using Jekyll. These included the ability to 
 save _drafts_, and _publish_ or _unpublish_ posts.
 
-Ref: [https://github.com/prose/prose/wiki/Getting-Started](https://github.com/prose/prose/wiki/Getting-Started)
+If you publish this using GitHub Pages, you can easily allow contributions.  Notice the
+the {% include prose_edit_url.html %} link in the left hand navigation.  You can customize this
+by editing the ```_config.yml``` file. Update the ```# Prose.io editing``` section with 
+your GitHub information:
+
+{%highlight yaml%}
+#Prose.io editing info
+repo_name: open-source-program-template
+branch: gh-pages
+#GitHub organization name *or* username
+gh_org: virtix
+prose_url: http://prose.io
+site_url: http://if.io/open-source-program-template
+media: assets/img
+{% endhighlight %}
+
+
+To remove the edit on prose.io link, remove the following lines from the
+```_includes/sidebar.html``` file:
+
+{% highlight html %}
+
+ <!-- Prose.io edit link -->
+ <li>{% include prose_edit_url.html %}</li>
+
+{% endhighlight %}
 

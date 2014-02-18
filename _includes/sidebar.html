@@ -9,7 +9,10 @@
         {% else %}
           <li><a href="{{ link.url }}">{{ link.text }}</a></li>
         {% endif %}
-      {% endfor %}
+        {% endfor %}
+
+        <!-- Prose.io edit link -->
+        <li>{% include prose_edit_url.html %}</li>
     </ul>
   </nav>
 </aside>
