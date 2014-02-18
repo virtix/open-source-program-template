@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "References"
+title: References
+published: true
 ---
-
 
 ## Public Sector
 1. Department of Defense Open Source Software FAQs, [http://dodcio.defense.gov/OpenSourceSoftwareFAQ.aspx](http://dodcio.defense.gov/OpenSourceSoftwareFAQ.aspx)
@@ -14,3 +14,6 @@ title: "References"
 
 ## Private Sector
 1. Open Source for America (OSFA), [http://opensourceforamerica.org/](http://opensourceforamerica.org/)
+
+## Non-Profit or Not-for-Profit
+1. A nice list of government open source projects, [http://govcode.org/](http://govcode.org/)
