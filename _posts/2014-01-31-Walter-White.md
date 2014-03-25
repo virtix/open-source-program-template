@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Walter White: How OSS helped the DEA to catch me"
+title:  "Walter White: How OSS Helped the DEA Catch Me"
 date:   2014-01-01 09:00:00
 categories: oss news
 ---
