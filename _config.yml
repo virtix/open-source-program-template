@@ -5,25 +5,25 @@ markdown: kramdown
 pygments: true
 
 #Prose.io editing info
-repo_name: open-source-program-template
+repo_name: open-source-program
 branch: gh-pages
 #GitHub organization name *or* username
 gh_org: virtix
 prose_url: http://prose.io
-site_url: http://if.io/open-source-program-template
+site_url: http://18f.github.io/open-source-program
 media: assets/img
 
 
 # Your Programs's Name
-name: A Government Open Source Program
-subtitle: A set of templates and artifacts to support open source programs 
+name: Government Open Source
+subtitle: Material to support open source in government 
 
 # When using this template with a project page set the baseurl to '/project-name'
 # For user/organization pages set this to an empty string
 # When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
 # See http://jekyllrb.com/docs/github-pages/ for more info
 #baseurl: ''
-baseurl: '/open-source-program-template'
+baseurl: '/open-source-program'
 
 # Author/Organization info to be displayed in the templates
 author:
