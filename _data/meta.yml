@@ -11,11 +11,11 @@ address:
  city: Washington
  state: D.C.
  zip: 20000
-point_of_contact: Thomas Jefferson 
+point_of_contact: 18F 
 # A valid HREF--email, form, etc.
-poc_link: mailto:tj@monticello.gov
+poc_link: mailto:18F@gsa.gov
 poc_phone: 123-123-1234
-sponsoring_office: Office of the Chief Information Officer
+sponsoring_office: GSA
 logo_url: /assets/img/USA_flag_icon.png
 home_url: index.html
 
