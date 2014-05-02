@@ -10,7 +10,7 @@ published: true
 
 {% comment %} 
  Replace these two lines with your desired content. I'm logged out of GH. Can I still
- make edits? 
+ make edits?? 
 
 {% endcomment %}
 {% include howto.md %}
