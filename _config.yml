@@ -27,7 +27,7 @@ baseurl: '/open-source-program'
 
 # Author/Organization info to be displayed in the templates
 author:
-  name: Thomas Jefferson 
+  name: 18F 
   url: http://localhost:4000
 
 # ------------------------------------------------------------------
