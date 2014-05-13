@@ -4,13 +4,6 @@ title: United States Open Source Program
 published: true
 ---
 
-{% comment %} Edit _data/meta.yml to change this value {% endcomment %}
-## {{site.data.meta.org_name}}
+## Home
 
-
-{% comment %} 
- Replace these two lines with your desired content. I'm logged out of GH. Can I still
- make edits?? 
-
-{% endcomment %}
-{% include howto.md %}
+This project is a collection of resources and tools to support federal agencies better employ open-source.  Add and improve the material here by clicking 'Edit this Page' anywhere on the site.  
