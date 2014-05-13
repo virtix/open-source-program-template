@@ -2,7 +2,7 @@
 
 This is a set of templates and artifacts intended to help organizations bootstrap an open source program.
 
-Special thanks to @[CFPB](http://github.com/cfpb), @Virtix](https://github.com/virtix), and @[BenBalter](https://github.com/benbalter) for their insight and code.  
+Special thanks to @[CFPB](http://github.com/cfpb), @[Virtix](https://github.com/virtix), and @[BenBalter](https://github.com/benbalter) for their insight and code.  
 
 ----
 
