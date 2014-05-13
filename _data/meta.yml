@@ -3,14 +3,14 @@
 # below accordingly.
 # See http://yaml.org for details about YAML
 #
-org_name:  YOUR ORGANIZATION NAME
-org_abbrev: YON
+org_name:  18F
+org_abbrev: 18F
 address:
- street: 1000 Main Street
+ street: 1800 F Street Northwest
  suite: 
  city: Washington
  state: D.C.
- zip: 20000
+ zip: 20006
 point_of_contact: 18F 
 # A valid HREF--email, form, etc.
 poc_link: mailto:18F@gsa.gov
