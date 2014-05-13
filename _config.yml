@@ -57,9 +57,6 @@ navigation:
 - text: Other Pages
   url: pages/other_pages.html
   internal: true 
-- text: Feedback
-  url: https://github.com/18F/open-source-program/issues
-  internal: true 
 
 
 
