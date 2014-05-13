@@ -54,9 +54,6 @@ navigation:
 - text: FAQs
   url: pages/faq.html
   internal: true 
-- text: Other Pages
-  url: pages/other_pages.html
-  internal: true 
 
 
 
