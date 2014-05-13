@@ -42,6 +42,12 @@ navigation:
 - text: Policy Documents
   url: pages/policy_documents.html
   internal: true 
+- text: Open Source Solutions
+  url: pages/open_source_solutions.html
+  internal: true 
+- text: Resources
+  url: pages/resources.html
+  internal: true 
 - text: FAQs
   url: pages/faq.html
   internal: true 
