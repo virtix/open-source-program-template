@@ -60,7 +60,3 @@ navigation:
 - text: References
   url: pages/references.html
   internal: true
-## You should remove or comment these next few lines when going live 
-- text: How to configure this site
-  url: pages/howto.html
-  internal: true
