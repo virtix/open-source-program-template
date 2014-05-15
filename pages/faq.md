@@ -111,6 +111,8 @@ connect with a broad and diverse community.  In many cases, developers collabora
 and friendships with other developers and may never meet face-to-face.  <a href="#top" class="reversefootnote">↩</a>
 
 
+#### What is at OpenSource.gov?  
 
+OpenSource.gov is a website for [open source intelligence](http://en.wikipedia.org/wiki/Open-source_intelligence).  This is intelligence material that has been gleaned from public sources.  The site is available to anyone with a .gov email addrss but unfortunately is not relevant to our open source efforts.  
 
 *[OSS]: Open Source Software
