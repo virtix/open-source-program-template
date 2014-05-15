@@ -23,9 +23,9 @@ title: "Resources"
 * [Open Source Policy](http://18f.github.io/open-source-program/pages/model_oss_policy.html)
 
 ### Other Material 
+* [Legal Policy - Civic Commons](http://wiki.civiccommons.org/Legal_Policy)
 * [List of Government GitHub Accounts](http://registry.usa.gov/accounts?service_id=github)
 * [List of Government SourceForge Accounts](http://18f.github.io/open-source-program/pages/list_of_sourceforge_accounts.html)
 * [Git Workflow](http://18f.github.io/open-source-program/pages/git_workflow.html)
-
 
 
