@@ -43,7 +43,7 @@ Another risk is the loss of personal identifying information, or _PII_, which ma
 be in the software's source code.  Even the best programmers
 and security specialists make mistakes and these can be costly to an organization's reputation and, 
 for government agencies, this can affect public trust. Organizations should implement sufficient
-quality controls and code reviews to reduce this risk.  Refer to the [git workflow document](pages/git_workflow.html)
+quality controls and code reviews to reduce this risk.  Refer to the [git workflow document](pages/git_workflow)
 for ideas.
 
 An organization who is actively accepting changes from the public runs the risk of inadvertently 
