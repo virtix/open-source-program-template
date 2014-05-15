@@ -11,9 +11,9 @@ title: "Community"
 
 ## Agency/Program Hubs
 * [CFPB](http://cfpb.github.io/)
+* [Data.gov](https://www.data.gov/developers/open-source)
 * [Department of Defense](http://forge.mil/)
 * [NASA](http://ti.arc.nasa.gov/opensource/) [Alternative](http://code.nasa.gov/project/)
-* [Data.gov](https://www.data.gov/developers/open-source)
 
 ## Agency Blogposts
 
