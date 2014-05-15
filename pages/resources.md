@@ -18,15 +18,15 @@ title: "Resources"
 
 ### Models
 * [Security Development Process](http://18f.github.io/open-source-program/pages/model_security_development_process.html)
-* [Guiding Principles](http://18f.github.io/open-source-program/pages/guiding_principles.html)
-* [Open Source Checklist](http://18f.github.io/open-source-program/pages/opensource_checklist.html)
-* [Open Source Policy](http://18f.github.io/open-source-program/pages/model_oss_policy.html)
+* [Guiding Principles](http://18f.github.io/open-source-program/pages/guiding_principles)
+* [Open Source Checklist](http://18f.github.io/open-source-program/pages/opensource_checklist)
+* [Open Source Policy](http://18f.github.io/open-source-program/pages/model_oss_policy)
 
 ### Other Material 
 * [Examples of Open Source Precedence in Government](https://github.com/gbinal/open-source-notes/blob/master/agency-examples.md)
 * [Legal Policy - Civic Commons](http://wiki.civiccommons.org/Legal_Policy)
 * [List of Government GitHub Accounts](http://registry.usa.gov/accounts?service_id=github)
 * [List of Government SourceForge Accounts](http://18f.github.io/open-source-program/pages/list_of_sourceforge_accounts.html)
-* [Git Workflow](http://18f.github.io/open-source-program/pages/git_workflow.html)
+* [Git Workflow](http://18f.github.io/open-source-program/pages/git_workflow)
 
 
