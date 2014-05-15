@@ -22,10 +22,7 @@ title: "Community"
 ## Agency Blogposts
 
 ### White House
-* []()
-* []()
-* []()
-* []()
+* [Open Source and the Power of Community](http://www.whitehouse.gov/blog/2012/12/05/open-source-and-power-community)
 
 ### Library of Congress
 * [Islandora’s Open Source Ecosystem and Digital Preservation: An Interview with Mark Leggott](http://blogs.loc.gov/digitalpreservation/2013/03/islandoras-open-source-ecosystem-and-digital-preservation-an-interview-with-mark-leggott/?loclr=blogsig)
