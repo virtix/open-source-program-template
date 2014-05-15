@@ -12,6 +12,7 @@ title: "Community"
 ## Agency/Program Hubs
 * [CFPB](http://cfpb.github.io/)
 * [Department of Defense](http://forge.mil/)
+* [HHS/CMS Measure Authoring Tool](https://www.emeasuretool.cms.gov/web/guest/open-source-community)
 * [NASA](http://ti.arc.nasa.gov/opensource/) [Alternative](http://code.nasa.gov/project/)
 * [Data.gov](https://www.data.gov/developers/open-source)
 
