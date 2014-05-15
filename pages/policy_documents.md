@@ -11,6 +11,8 @@ title: "Policy Documents"
 * Department of Energy
   * [Department of Energy, Genomic Science Program, Draft Information and Data Sharing Policy](http://genomicscience.energy.gov/datasharing/) - see IV. Computational Software
   * [Energy Plus Open Source License](http://apps1.eere.energy.gov/buildings/energyplus/pdfs/open_source_agreement.pdf)
+* Department of Health and Human Services
+* [Health Resources and Services Administration](http://www.hrsa.gov/healthit/toolbox/HealthITAdoptiontoolbox/OpenSource/)
 * [EPA's GitHub Guidance](http://www2.epa.gov/webguide/github-guidance)
 * [NASA Policy on Open Source](http://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&c=2210&s=1C)
 
