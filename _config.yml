@@ -37,22 +37,22 @@ author:
 # ------------------------------------------------------------------
 navigation:
 - text: Home
-  url: index.html
+  url: index
   internal: true
 - text: Community
-  url: pages/community.html
+  url: pages/community
   internal: true 
 - text: Policy Documents
-  url: pages/policy_documents.html
+  url: pages/policy_documents
   internal: true 
 - text: Open Source Solutions
-  url: pages/open_source_solutions.html
+  url: pages/open_source_solutions
   internal: true 
 - text: Resources
-  url: pages/resources.html
+  url: pages/resources
   internal: true 
 - text: FAQs
-  url: pages/faq.html
+  url: pages/faq
   internal: true 
 
 
