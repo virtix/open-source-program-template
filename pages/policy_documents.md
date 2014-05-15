@@ -15,6 +15,7 @@ title: "Policy Documents"
   * [Health Resources and Services Administration](http://www.hrsa.gov/healthit/toolbox/HealthITAdoptiontoolbox/OpenSource/)
 * [EPA's GitHub Guidance](http://www2.epa.gov/webguide/github-guidance)
 * [NASA Policy on Open Source](http://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&c=2210&s=1C)
+* [National Institutes of Health, National Cancer Institute - Open Source License for caAdapter](https://wiki.nci.nih.gov/display/caCORE/caBIG+Open+Source+Software+License+for+caAdapter)
 
 
 Other Material  
