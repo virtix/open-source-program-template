@@ -8,7 +8,9 @@ title: "Policy Documents"
 * Department of Defense
   * [Memo on Open Source - Clarifyng Guidance Regarding Open Source Software (OSS)](http://dodcio.defense.gov/Portals/0/Documents/FOSS/2009OSS.pdf)
   * [Related DOD Policies & Memos](http://mil-oss.org/resources/articles-papers-presentations)
-* [Department of Energy, Genomic Science Program, Draft Information and Data Sharing Policy](http://genomicscience.energy.gov/datasharing/) - see IV. Computational Software
+* Department of Energy
+  * [Department of Energy, Genomic Science Program, Draft Information and Data Sharing Policy](http://genomicscience.energy.gov/datasharing/) - see IV. Computational Software
+  * [Energy Plus Open Source License](http://apps1.eere.energy.gov/buildings/energyplus/pdfs/open_source_agreement.pdf)
 * [EPA's GitHub Guidance](http://www2.epa.gov/webguide/github-guidance)
 * [NASA Policy on Open Source](http://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&c=2210&s=1C)
 
