@@ -26,7 +26,7 @@ title: "Resources"
 * [Examples of Open Source Precedence in Government](https://github.com/gbinal/open-source-notes/blob/master/agency-examples.md)
 * [Legal Policy - Civic Commons](http://wiki.civiccommons.org/Legal_Policy)
 * [List of Government GitHub Accounts](http://registry.usa.gov/accounts?service_id=github)
-* [List of Government SourceForge Accounts](http://18f.github.io/open-source-program/pages/list_of_sourceforge_accounts.html)
+* [List of Government SourceForge Accounts](http://18f.github.io/open-source-program/pages/list_of_sourceforge_accounts)
 * [Git Workflow](http://18f.github.io/open-source-program/pages/git_workflow)
 
 
