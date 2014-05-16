@@ -14,8 +14,10 @@ title: "Policy Documents"
 * Department of Health and Human Services
   * [Health Resources and Services Administration](http://www.hrsa.gov/healthit/toolbox/HealthITAdoptiontoolbox/OpenSource/)
 * [EPA's GitHub Guidance](http://www2.epa.gov/webguide/github-guidance)
+* [FDIC Financial Institution Letters - Risk Management of Free and Open Source Software](http://www.fdic.gov/news/news/financial/2004/FIL11404a.html)
 * [NASA Policy on Open Source](http://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&c=2210&s=1C)
 * [National Institutes of Health, National Cancer Institute - Open Source License for caAdapter](https://wiki.nci.nih.gov/display/caCORE/caBIG+Open+Source+Software+License+for+caAdapter)
+* [SEC License Agreement for Use of Interactive Financial Report Viewer Source Code](http://www.sec.gov/spotlight/xbrl/xbrlviewerlicense.htm)
 
 
 Other Material  
