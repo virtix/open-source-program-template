@@ -30,6 +30,9 @@ title: "Community"
 ### Department of Health and Human Services
 * [The New Healthcare.gov Uses a Lightweight Open Source Tool](http://www.hhs.gov/digitalstrategy/blog/2013/04/healthcare-gov-uses-open-source.html)
 
+### General Services Administration
+* [DigitalGov Search: Our Open Source Strategy](http://www.digitalgov.gov/2014/03/24/digitalgov-search-our-open-source-strategy/)
+
 ### Library of Congress
 * [Islandora’s Open Source Ecosystem and Digital Preservation: An Interview with Mark Leggott](http://blogs.loc.gov/digitalpreservation/2013/03/islandoras-open-source-ecosystem-and-digital-preservation-an-interview-with-mark-leggott/?loclr=blogsig)
 * [Archivematica and the Open Source Mindset for Digital Preservation Systems](http://blogs.loc.gov/digitalpreservation/2012/10/archivematica-and-the-open-source-mindset-for-digital-preservation-systems/?loclr=blogsig)
