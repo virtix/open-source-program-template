@@ -17,6 +17,7 @@ title: "Resources"
 * [How to Manage Accounts on GitHub.com](http://18f.github.io/open-source-program/pages/account_management.html)
 
 ### Models
+* [Agency Open Source Hub](https://github.com/virtix/open-source-program-template)
 * [Security Development Process](http://18f.github.io/open-source-program/pages/model_security_development_process.html)
 * [Guiding Principles](http://18f.github.io/open-source-program/pages/guiding_principles)
 * [Open Source Checklist](http://18f.github.io/open-source-program/pages/opensource_checklist)
