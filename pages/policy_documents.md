@@ -14,6 +14,8 @@ title: "Policy Documents"
   * [Energy Plus Open Source License](http://apps1.eere.energy.gov/buildings/energyplus/pdfs/open_source_agreement.pdf)
 * Department of Health and Human Services
   * [Health Resources and Services Administration](http://www.hrsa.gov/healthit/toolbox/HealthITAdoptiontoolbox/OpenSource/)
+* Department of Homeland Security
+  * [Open Source Software in Government Challengese and Opportunities](http://www.scribd.com/doc/226768938/Open-Source-Software-in-Government-Challenges-and-Opportunities)
 * [EPA's GitHub Guidance](http://www2.epa.gov/webguide/github-guidance)
 * [FDIC Financial Institution Letters - Risk Management of Free and Open Source Software](http://www.fdic.gov/news/news/financial/2004/FIL11404a.html)
 * [GSA's 18F - Source Code Policy](https://github.com/18F/source-code-policy)
