@@ -1,4 +1,4 @@
-/ri*
+/*
 Main.css
 ==================================
 Begin with generic 'mobile first' styles
@@ -140,6 +140,15 @@ li h4 {
 li p {
     margin-top: 0;
 }
+
+/* To help with formatting of OS policy list items */
+.policy li ol { margin-left: 3em; counter-reset: list; }
+.policy li { list-style: decimal; text-transform: uppercase; }
+.policy li li { list-style: none;  position: relative; text-transform: none;  }
+.policy li li:before { counter-increment: list; content: counter(list, lower-alpha) ") "; position: absolute; left: -1.4em;}
+.policy li li li:before {content: none; }
+.policy li li li { list-style-type: lower-alpha; }
+.policy li li li li { list-style-type: lower-roman; }
 
 /*
 Links
