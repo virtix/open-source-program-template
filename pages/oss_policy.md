@@ -1,6 +1,7 @@
 ---
 layout: policy
-title: "Open Source Policy"
+title: Open Source Policy
+published: true
 ---
 
 {% comment %}
@@ -123,6 +124,4 @@ From the CFPB[^1]
 ----
 
 
-[^1]: CFPB, [Source Code Policy](https://raw.github.com/cfpb/source-code-policy/master/cfpb-source-code-policy.txt)
-
-
+[^1]: CFPB, [Source Code Policy](https://github.com/cfpb/source-code-policy/)
