@@ -54,6 +54,9 @@ navigation:
 - text: Resources
   url: pages/resources
   internal: true 
+- text: Case Studies
+  url: pages/case_study_list
+  internal: true 
 - text: FAQs
   url: pages/faq
   internal: true 
