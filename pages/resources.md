@@ -29,6 +29,7 @@ title: "Resources"
 
 ### Other Material 
 * [DOD Frequently Asked Questions about Open Source Software](http://dodcio.defense.gov/OpenSourceSoftwareFAQ.aspx)
+* [Use of Free and Open-Source Software (FOSS) in the U.S. Department of Defense](http://dodcio.defense.gov/Portals/0/Documents/FOSS/dodfoss_pdf.pdf)
 * [Examples of Open Source Precedence in Government](https://github.com/gbinal/open-source-notes/blob/master/agency-examples.md)
 * [Legal Policy - Civic Commons](http://wiki.civiccommons.org/Legal_Policy)
 * [List of Government GitHub Accounts](http://registry.usa.gov/accounts?service_id=github)
