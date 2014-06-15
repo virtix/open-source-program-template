@@ -70,7 +70,7 @@ Navigate to the file ```data/meta.yml``` and change the ```logo_url``` to a vali
 location to your logo. This can either be an HTTP URL or a new local image file.
 
 {% highlight yaml %}
-logo_url: /assets/img/USA_flag_icon.png
+logo_url: /assets/img/usa_logo.png
 {% endhighlight %}
 
 

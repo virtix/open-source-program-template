@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Model Security Development Process</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/open-source-program/assets/img/usa_logo.png?v=1.2">
+        <link rel="shortcut icon" href="/open-source-program/assets/css/normalize.css">
+        <link rel="stylesheet" href="/open-source-program/assets/css/normalize.css">
+        <link rel="stylesheet" href="/open-source-program/assets/css/main.css">
+        <link rel="stylesheet" href="/open-source-program/assets/css/syntax.css">
+        <!--[if lt IE 9]>
+          <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+          <script src="/open-source-program/assets/js/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+
+
+
+      <header role="banner">
+
+      <!-- Fork Me at GitHub banner. Remove, of course -->
+      <a href="https://github.com/18F/open-source-program"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+      
+
+      <div class="wrap">
+        
+        <h1><a class="title-link" href="/open-source-program/">Government Open Source</a></h1>
+        <div style="float:right">
+            <!-- This should be a configurable item in data/ -->
+
+            <a href="/open-source-program/index.html" class="title-link">
+                <img height="52" src="/open-source-program/assets/img/usa_logo.png" alt="Your agency logo">
+            </a>
+        </div>
+      </div>
+      </header>
+
+      <div class="wrap content">
+
+          <aside>
+  <p class="intro">Material to support open source in government</p>
+  <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
+  <nav role="navigation">
+    <ul>
+      
+        
+          <li><a href="/open-source-program/index">Home</a></li>
+        
+        
+        
+          <li><a href="/open-source-program/pages/community">Community</a></li>
+        
+        
+        
+          <li><a href="/open-source-program/pages/events">Upcoming Events</a></li>
+        
+        
+        
+          <li><a href="/open-source-program/pages/policy_documents">Policy Documents</a></li>
+        
+        
+        
+          <li><a href="/open-source-program/pages/open_source_solutions">Open Source Solutions</a></li>
+        
+        
+        
+          <li><a href="/open-source-program/pages/resources">Resources</a></li>
+        
+        
+        
+          <li><a href="/open-source-program/pages/case_study_list">Case Studies</a></li>
+        
+        
+        
+          <li><a href="/open-source-program/pages/faq">FAQs</a></li>
+        
+        
+
+        <!-- Prose.io edit link -->
+        <li><a href="https://github.com/18F/open-source-program/issues">Feedback</a></li>
+        <li><a href="http://github.com/18f/open-source-program/edit/gh-pages/pages/model_security_development_process.md" target="_blank">Edit this page</a>
+</li>
+    </ul>
+  </nav>
+</aside>
+
+
+        <section id="main" class="main-content" role="main">
+          <h2 class="page-title">Model Security Development Process</h2>
+
+<p>{AGENCY} Security Development Process</p>
+
+<h2 id="executive-summary">Executive Summary</h2>
+
+<p>In order to obtain the most secure and well-written code possible, {AGENCY} develops code publicly by default subject to informal and formal security review at each point of significant increased risk. Clarifying examples are provided. A monthly meeting between {TEAM} engineers and {AGENCY} security experts will facilitate communication.</p>
+
+<h2 id="a-basic-strategy">A Basic Strategy</h2>
+
+<p>The basic {AGENCY} strategy is to avoid the danger that the code may be compromised, revealing vulnerabilities to bad actors, by insuring that code has low vulnerabilities by developing “Open-source by Default.” Developers write safer code when they do so in the light. A disgruntled employee cannot steal public code. This policy avoids rely on the secrecy of the source code itself, and concentrates the security effort into protecting a smaller number of secrets. Code is continually improved on a weekly basis.</p>
+
+<p>In most projects, there are clear transitions that represent risk-increasing events. For example, a project that maintains data should be developed with security in mind from the beginning, but must be secure by the time it is in production and actually accepting data. Preparation for “go live” therefore represents a clear even in which the additional security scrutiny required by prudence and FISMA should be applied.</p>
+
+<p>Often, a change the data model, a major feature, or a minor feature change to the authentication mechanism represents an event that should trigger {AGENCY} Security review. We call these security review events.</p>
+
+<p>This document describes how security review events should be identified and handled.</p>
+
+<h2 id="processes-for-vulnerabilities">Processes for Vulnerabilities</h2>
+
+<p>By using GitHub for development, any repository may be made private instantaneously. This is the proper response to the suspicion of a code-based vulnerability, because it is cheap—the repository can also be made public again when it is deemed safe to do so.</p>
+
+<p>A classic and fairly common mistake is to check in a password. This is best avoided by never committing configuration information to the source code (see Software Engineering Techniques below.) The proper response to this is to immediately change the password. Making the repository private does not help, because there is no record of who may have read the repository, and may even alert an attacker to a vulnerability. A better policy is to change the password first, make the repository private, fix the inherent flaw in including a password in the repository, and then make the repository public again.</p>
+
+<p>A subtler example is the discovery of a vulnerability created by a badly written piece of code: for example,</p>
+
+<h2 id="software-engineering-techniques">Software Engineering Techniques</h2>
+
+<p>A clear distinction will be made between code, which is sharable and reusable, and configuration and credentials, which is specific to deployment and should not be shared. Our basic process is not to commit configuration information to source code repositories at all, but to deploy configuration through non-code settings. This is perhaps the most immediately exploitable vulnerability of open-source development. It is imperative to respond to such mistakes as quickly as possible.</p>
+
+<p>Generally, one must test and develop code on deployed sites before it can be placed in production. A fundamental technique is to protect such deployed, implemented, non-production sites is to limit access to these sites by firewalls and/or basic http authentication.</p>
+
+<p>Particular caution is required by {AGENCY} in planning its development and test sites, due to the general habit of many developers of using internet-accessible cloud-hosting development servers. It is important that {AGENCY} understand that data can be stolen from a test site just as readily and from a “production site”. For the purpose of this document, it is more valuable to think of anything exposed beyond the {AGENCY} firewall to the internet-at-large to be “production”, whether it is promoted to half a dozen engineers and user acceptance testers or to every US citizen.</p>
+
+<h2 id="security-review-events-that-always-require-a-formal-security-review">Security Review Events that Always Require a Formal Security Review</h2>
+
+<p>We can easily identify a non-exhaustive list of events that should trigger preceding security review by the {AGENCY} Security staff. These include:
+1. The transition from development into production.
+2. Significantly increasing the number of users that have access to a system.
+3. Deploying a new connection between two systems.
+4. Making a change to access control mechanisms, such as adding “groups” to a system which did not have them previously.
+5. Utilizing a new third-party software system in a system which is already in production.</p>
+
+<p>Some example of events that do not increase risk include:
+1. Creating a repository to begin exploring ideas which do not contain documents, data, or code that mention or access external systems.
+2. Deploying test servers on a government issued laptop.
+3. Making minor code changes which are not expected to change functionality. A typical example is a CSS styling issue. However, another example might be changing a search algorithm that delivers search results behind a well-defined API. Such a change may create bugs but is unlikely to change the security posture.
+4. Utilizing a new third-party software system in a system which is not yet in production.</p>
+
+<p>Examples of development milestones which fall in-between these clear-cut examples should be discussed in the monthly meetings, or whenever they arise, between team engineers and the security review staff.</p>
+
+<h2 id="invitation-of-additional-analysis">Invitation of Additional Analysis</h2>
+
+<p>By developing public code there is a sense in which security review is always invited. There is never anything stopping anybody from looking for vulnerabilities in our code. However, that statement is not a practical strategy for informing heavily employed {AGENCY} Security of projects they may wish to study outside of the formal triggers for security review outlined above.</p>
+
+<p>A once-a month meeting between {TEAM} and the {AGENCY} Security office will allow clarity into the status of each project, a discussion of security risks, and a general understanding of upcoming issues. This meeting will also have the benefit of spreading knowledge of security best practices.</p>
+
+<p>Additionally, {TEAM} invites scanning of the static code with tools such as Fortify(TM) at any time.</p>
+
+<p>For those sites which are deployed other than on private, non-internet accessible machines, {TEAM} invites active web-scanning at anytime with 24 hours notice and will provide sufficient credentials and instructions to make this fruitful.</p>
+
+<h2 id="some-scenarios-and-examples">Some Scenarios and Examples</h2>
+
+<h4 id="scenario-1-it-is-discovered-that-a-project-has-checked-in-a-password">Scenario 1: It is discovered that a project has checked in a password.</h4>
+
+<p>Let us suppose that in the normal course of coding, an engineer is reading code and notices that a password has been committed to a public repository. It cannot be known if this vulnerability has been exploited. The best policy is to immediately change the password, assuming this can be done quickly.</p>
+
+<p>Only after this is done should the site be made private. When these two actions have occurred, the engineering staff and the security team can calmly assess how to improve the process to avoid this coding mistake in the future. When everyone is satisfied, the repository can be made public again.</p>
+
+<h4 id="scenario-2-an-agency-security-officer-becomes-concerned-about-a-revealed-exploit-in-a-third-party-software-system-employed-by-a-production-system">Scenario 2: An {AGENCY} Security officer becomes concerned about a revealed exploit in a third-party software system employed by a production system</h4>
+
+<p>A project utilizes a free open-source library to save the taxpayer money. A security expert announces that he believe this package as an exploitable vulnerability. {TEAM} and the {AGENCY} Security staff consider the following actions:</p>
+
+<ol>
+  <li>Temporarily making the repository private that mentions the suspect system to obscure the fact that this vulnerability may exist.</li>
+  <li>Disabling the use of that library immediately and immediately deploy this code change to the live production site to maintain availability.</li>
+  <li>If necessarily, temporarily brining the site down until the fix can be resolved.</li>
+</ol>
+
+<h4 id="scenario-3-a-project-is-planning-to-make-a-connection-to-a-api-offered-by-a-third-party-that-will-pass-pii-to-and-from-the-api">Scenario 3: A project is planning to make a connection to a API offered by a third party that will pass PII to and from the API.</h4>
+
+<p>The security staff learns of this in the monthly meeting and asks if it is really needed to accomplish the meeting. They ask how the data will be in transit, and if we are legally prepared to exchange this data with the third party and confident that they have sufficient controls in place to be trusted. Although there is no reason to stop development, the connection is not enabled until the security staff is satisfied.</p>
+
+<h4 id="scenario-4-a-web-site-experiences-an-increase-in-invalid-login-attempts-the-attacker-does-not-appear-to-have-been-successful-yet-these-attacks-appear-more-focused-than-those-of-automated-script-kiddie-attacks">Scenario 4: A web-site experiences an increase in invalid login attempts. The attacker does not appear to have been successful yet. These attacks appear more focused than those of automated “script-kiddie” attacks.</h4>
+
+<p>In addition to whatever actions the {TEAM} security staff takes, the development staff should analyze the attacks and see if they are based on some actual vulnerability in expressed in the code.</p>
+
+<h4 id="scenario-5-in-response-to-a-security-review-event-static-security-scans-reveal-significant-vulnerabilities-in-a-project">Scenario 5: In response to a Security Review Event, static security scans reveal significant vulnerabilities in a project.</h4>
+
+<p>As has been done on previous projects, {TEAM} will make the resolution of these vulnerabilities a high priority and they will be resolved before the risk-increasing event occurs.</p>
+
+
+
+<hr/>
+
+
+
+
+        </section>
+        
+        
+        <footer role="contentinfo">
+          <p>This project is maintained by <a href="mailto:18F@gsa.gov">18F</a></p>
+ 
+          <p>Hosted on Github Pages</p>
+        </footer>
+
+      </div><!-- /.wrap -->
+    </body>
+</html>
